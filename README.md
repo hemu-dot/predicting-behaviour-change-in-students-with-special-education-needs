@@ -1,9 +1,13 @@
-#⚡ Predicting Behavior Change in Students with Special Education Needs
-multimodal learning analytics · machine learning
+# ⚡ Predicting Behavior Change in Students with Special Education Needs
 
-A **machine learning–based behavior prediction system** that analyzes **multimodal learning data** to predict whether positive behavior changes in students with Special Education Needs (SEN) are sustained over time. The project is inspired by **research-driven methodologies** in applied behavior analysis (ABA) and educational data science, aiming to support personalized and data-informed interventions.
+*multimodal learning analytics · machine learning*
 
-📌 Features
+A **machine learning–based behavior prediction system** that analyzes **multimodal learning data** to predict whether positive behavior changes in students with Special Education Needs (SEN) are sustained over time.
+The project is inspired by **research-driven methodologies** in Applied Behavior Analysis (ABA) and educational data science, aiming to support **personalized and data-informed interventions**.
+
+---
+
+## 📌 Features
 
 * Predicts long-term behavior change using ML classification
 * Combines educational, environmental, physiological, and motion data
@@ -11,25 +15,49 @@ A **machine learning–based behavior prediction system** that analyzes **multim
 * Handles class imbalance using resampling techniques
 * Research-backed approach aligned with real-world ABA therapy scenarios
 
-OUTPUT SCREENS
-## OUTPUT SCREENS
+---
+
+## 🖼️ Output Screens
 
 ### Home Screen
+
 ![Home Screen](images/home.png)
 
-### Input Screen
-![Input Screen](images/input.png)
+### Input Data Screen
 
-### Output Screen
-![Output Screen](images/output.png)
+![Input Data Screen](images/input.png)
 
+### Prediction Result Screen
 
-🛠️ Tech Stack
-Python
-Django
+![Prediction Result Screen](images/result.png)
 
-HTML5 · CSS3 · JavaScript
+### Model Performance Screen
 
-MySQL · XAMPP
+![Model Performance Screen](images/performance.png)
 
-Scikit-learn · NumPy · Pandas · TensorFlow
+---
+
+## 🛠️ Tech Stack
+
+**Backend & ML**
+
+* Python
+* Django
+* Scikit-learn
+* TensorFlow
+
+**Data Processing**
+
+* NumPy
+* Pandas
+
+**Frontend**
+
+* HTML5
+* CSS3
+* JavaScript
+
+**Database & Server**
+
+* MySQL
+* XAMPP
